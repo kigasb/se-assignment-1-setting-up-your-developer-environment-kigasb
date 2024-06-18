@@ -15,6 +15,7 @@ This assignment aims to familiarize you with the tools and configurations necess
 
 2. Install a Text Editor or Integrated Development Environment (IDE):
    Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
+
 3. Set Up Version Control System:
    Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
 
@@ -40,6 +41,47 @@ This assignment aims to familiarize you with the tools and configurations necess
 - Document detailing the setup process with step-by-step instructions and screenshots where necessary.
 - A GitHub repository containing a sample project initialized with Git and any necessary configuration files (e.g., .gitignore).
 - A reflection on the challenges faced during setup and strategies employed to overcome them.
+
+Answers
+   To install windows 11, the prerequites items needed are
+   1. A usb drive with atleast 8GB free space
+   2. Windows 11 iso files which can be downloaded from Microsoft web page or using Windows creation tool.
+   3. Rufus for creating a bootable usb of the windows iso file.
+   
+   Process
+   1. Create a bootable USB ISO file on the USB drive with Rufus - https://www.rufus.ie. ![alt text](screenshot2_en.png)
+   2. After creating the bootable USB drive, boot your computer from the USB and start installing windows.
+   3. Select your preferred language, region and keyboard version and click next. ![alt text](W11-Figure-25-Clean-Boot.jpg)
+   4. Click install to start installing windows. ![alt text](W11-Figure-26-Clean-Install-now.jpg)
+   5. Type in the product key and click next or click I dont have a product key to go to the next phase of the installation.![alt text](W11-Figure-27-Clean-Activate.jpg)
+   6. Select the varient of windows you want to install and click next.![alt text](W11-Figure-28-Clean-Select-version.jpg)
+   7. Accept lincence agreement and click next.![alt text](W11-Figure-29-Clean-license.jpg)
+   8. Choose Custom: Install Windows only (advance).![alt text](W11-Figure-30-Clean-upgrade-install.jpg)
+   9. Choose the disk drive to install your windows on.![alt text](W11-Figure-31-Clean-drive.jpg)
+   10. Now, leave the windows to install. ![alt text](W11-Figure-32-Clean-Installing.jpg)
+
+   Credit: images source (https://petri.com/)
+
+   VS Code installation
+   1. Download VS code from https://code.visualstudio.com/Download and open to install ![alt text](1--Official-Page.png)
+   2. Accept lincence agreement and click next. ![alt text](4--Accept-License.png)
+   3. Tick these boxes, 'Create desktop icon', 'Add "Open with code' in Explorer options and click next. ![alt text](5--Click-Next.png)
+   4. Click install to start the installation precess. ![alt text](6--Click-Install.png)
+   5. Wait for the process to complete. ![alt text](7--Wait.png)
+   6. Click on finish to complete the process. ![alt text](8--Finish.png)
+
+   Credit: image source GeekforGee
+
+   How to install python
+   1. Download python from http://wwww.python.org and open to install
+   2. Tick the boxes next to "Use admin privileges" and "Add python.exe to PATH" and click Install Now. ![alt text](p1.jpg)
+   3. Leave the installation process to complete. ![alt text](p2.jpg)
+   4. After the installation is complete click on close. ![alt text](p3.jpg)
+
+   How to install pip.
+   To install pip on your computer, use the following commands.
+   1. python -m pip install django
+   2. python -m pip install virtualenv
 
 #Submission:
 Submit your document and GitHub repository link through the designated platform or email to the instructor by the specified deadline.
